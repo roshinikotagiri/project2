@@ -1,0 +1,45 @@
+body{
+  background-color:skyblue ;
+}
+#main{
+  float:right;
+  background-color:#107D9E ;
+  margin:15%;
+  /padding:4;/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 4%; 
+
+}
+.sub{
+  float:left;
+  background-color:#6BA6B1 ;
+  width: 25%;
+  margin:4%;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 4px 5px 5px 5px black;
+}
+.sub:hover{
+  color:white;
+}
+img{
+  width:70%;
+  height:40%;
+  border-radius:25%;
+  margin:4%;
+}
+p{
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+a>h3{color: red;}
+h3{
+  color:black;
+}
+media screen and (min-width: 425px){
+  
+}
